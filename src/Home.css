@@ -34,8 +34,9 @@
 .social-icons a {
   color: #000;
   font-size: 24px;
+  transition: color 0.3s;
 }
 
 .home.dark .social-icons a {
-  color: #fff;
+  color: #fff !important;
 }
