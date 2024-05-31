@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-
 function About({ darkMode }) {
   return (
     <div className={darkMode ? 'about dark' : 'about'}>
@@ -18,5 +17,4 @@ function About({ darkMode }) {
     </div>
   );
 }
-
 export default About;

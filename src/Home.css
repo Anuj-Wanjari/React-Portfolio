@@ -1,4 +1,8 @@
-/* Home.css */
+:root {
+  --icon-color-light: #000;
+  --icon-color-dark: #fff;
+}
+
 .home {
   transition: background-color 0.3s, color 0.3s;
   min-height: 100vh;
@@ -32,11 +36,11 @@
 }
 
 .social-icons a {
-  color: #000;
+  color: var(--icon-color-light);
   font-size: 24px;
   transition: color 0.3s;
 }
 
 .home.dark .social-icons a {
-  color: #fff !important;
+  color: var(--icon-color-dark);
 }

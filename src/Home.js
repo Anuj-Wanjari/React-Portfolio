@@ -3,9 +3,9 @@ import { Typewriter } from 'react-simple-typewriter';
 import './Home.css';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
-function Home() {
+function Home({ darkMode }) {
   return (
-    <div className="home">
+    <div className={darkMode ? "home dark" : "home"}>
       <div className="intro">
         <h1>Anuj Wanjari</h1>
         <p>I'm a <Typewriter

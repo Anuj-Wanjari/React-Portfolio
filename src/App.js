@@ -17,7 +17,7 @@ function App() {
       <div className={darkMode ? 'App dark' : 'App'}>
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home darkMode={darkMode} />} />
           <Route path="/about" element={<About darkMode={darkMode} />} />
           {/* Add other routes here */}
         </Routes>

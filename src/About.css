@@ -8,27 +8,22 @@
   min-height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .about.dark {
   background-color: #121212;
   color: #ffffff;
 }
-
 .about-text {
   max-width: 60%;
   text-align: left;
 }
-
 .about h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
 .about p {
   font-size: 18px;
   line-height: 1.6;
 }
-
 .profile-image {
   width: 200px;
   height: 200px;
