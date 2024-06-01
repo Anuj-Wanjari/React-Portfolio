@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Navbar from './Navbar';
 import Skills from './Skills';
+import Education from './Education';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home darkMode={darkMode} />} />
           <Route path="/about" element={<About darkMode={darkMode} />} />
           <Route path="/skills" element={<Skills darkMode={darkMode} />} />
+          <Route path="/education" element={<Education darkMode={darkMode} />} />
           {/* Add other routes here */}
         </Routes>
       </div>
