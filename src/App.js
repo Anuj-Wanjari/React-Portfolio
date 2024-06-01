@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Navbar from './Navbar';
+import Skills from './Skills';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home darkMode={darkMode} />} />
           <Route path="/about" element={<About darkMode={darkMode} />} />
+          <Route path="/skills" element={<Skills darkMode={darkMode} />} />
           {/* Add other routes here */}
         </Routes>
       </div>

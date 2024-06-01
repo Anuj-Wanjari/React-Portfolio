@@ -9,12 +9,12 @@ function Home({ darkMode }) {
       <div className="intro">
         <h1>Anuj Wanjari</h1>
         <p>I'm a <Typewriter
-          words={['Developer', 'Analyst']}
+          words={['Developer!!', 'Analyst!!']}
           loop={0}
           cursor
           cursorStyle="|"
-          typeSpeed={70}
-          deleteSpeed={50}
+          typeSpeed={100}
+          deleteSpeed={90}
           delaySpeed={1000}
         /></p>
         <div className="social-icons">

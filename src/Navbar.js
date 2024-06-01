@@ -25,4 +25,5 @@ function Navbar({ darkMode, toggleDarkMode }) {
     </nav>
   );
 }
+
 export default Navbar;
