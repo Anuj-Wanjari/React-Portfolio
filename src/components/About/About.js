@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import personImage from '../../images/profile.png'; // Import the image
 
 function About({ darkMode }) {
   return (
@@ -15,7 +16,8 @@ function About({ darkMode }) {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <img src="https://img.freepik.com/free-photo/3d-rendering-cartoon-boy_23-2150797600.jpg?t=st=1716787811~exp=1716791411~hmac=1d0377e78a647c4b10ef266b950c2f26c730fef06482de4db0ad70bdd421ef04&w=740" alt="Profile" className="profile-image" />
+        {/* Use the imported image */}
+        <img src={personImage} alt="Profile" className="profile-image" />
       </div>
     </div>
   );

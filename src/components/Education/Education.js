@@ -1,8 +1,8 @@
 import React from 'react';
 import './Education.css';
-import scalerSchoolImage from './images/scaler-school.png';
-import bitsPilaniImage from './images/bits-pilani.png';
-import certificationImage from './images/certification.png';
+import scalerSchoolImage from '../../images/scaler-school.png';
+import bitsPilaniImage from '../../images/bits-pilani.png';
+import certificationImage from '../../images/certification.png';
 
 function Education({ darkMode }) {
   const certifications = [

@@ -2,12 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import './Projects.css';
-import portfolioImage from './images/portfolio.png';
-import yulu from './images/yulu.png';
-import Aerofit from './images/Aerofit.png';
-import paystree from './images/paystree.png';
-import Quizapp from './images/Quizapp.png';
-import Stocks from './images/Stocks.png';
+import portfolioImage from '../../images/portfolio.png';
+import yulu from '../../images/yulu.png';
+import Aerofit from '../../images/Aerofit.png';
+import paystree from '../../images/paystree.png';
+import Quizapp from '../../images/Quizapp.png';
+import Stocks from '../../images/Stocks.png';
 
 const projects = [
   {

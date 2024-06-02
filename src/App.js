@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Navbar from './Navbar';
-import Skills from './Skills';
-import Education from './Education';
-import Projects from './Projects';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
+import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 function App() {

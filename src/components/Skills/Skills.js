@@ -1,17 +1,17 @@
 import React from 'react';
 import './Skills.css';
-import javaIcon from './icons/java.png';
-import pythonIcon from './icons/python.png';
-import htmlIcon from './icons/html.png';
-import cssIcon from './icons/css.png';
-import jsIcon from './icons/js.png';
-import mysqlIcon from './icons/mysql.png';
-import reactIcon from './icons/react.png';
-import githubIcon from './icons/github1.png';
-import colabIcon from './icons/colab.png';
-import chatgptIcon from './icons/chatgpt1.png';
-import excelIcon from './icons/excel.png';
-import tableauIcon from './icons/tableau.png';
+import javaIcon from '../../icons/java.png';
+import pythonIcon from '../../icons/python.png';
+import htmlIcon from '../../icons/html.png';
+import cssIcon from '../../icons/css.png';
+import jsIcon from '../../icons/js.png';
+import mysqlIcon from '../../icons/mysql.png';
+import reactIcon from '../../icons/react.png';
+import githubIcon from '../../icons/github1.png';
+import colabIcon from '../../icons/colab.png';
+import chatgptIcon from '../../icons/chatgpt1.png';
+import excelIcon from '../../icons/excel.png';
+import tableauIcon from '../../icons/tableau.png';
 
 function Skills({ darkMode }) {
   const skills = [
