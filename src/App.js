@@ -5,6 +5,7 @@ import About from './About';
 import Navbar from './Navbar';
 import Skills from './Skills';
 import Education from './Education';
+import Projects from './Projects';
 import './App.css';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           <Route path="/about" element={<About darkMode={darkMode} />} />
           <Route path="/skills" element={<Skills darkMode={darkMode} />} />
           <Route path="/education" element={<Education darkMode={darkMode} />} />
-          {/* Add other routes here */}
+          <Route path="/projects" element={<Projects darkMode={darkMode} />} />
         </Routes>
       </div>
     </Router>
