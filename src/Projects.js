@@ -12,63 +12,63 @@ import Stocks from './images/Stocks.png';
 const projects = [
   {
     imgSrc: Stocks,
-    title: 'Project 6',
+    title: 'Stock Data Analysis',
     description: [
       'Description point 1 for project 6.',
       'Description point 2 for project 6.',
       'Description point 3 for project 6.',
     ],
-    link: 'https://github.com/yourusername/project6',
+    link: 'https://github.com/Anuj-Wanjari/StockDataAnalysis',
   },
   {
     imgSrc: Quizapp,
-    title: 'Project 5',
+    title: 'Quiz App',
     description: [
       'Description point 1 for project 5.',
       'Description point 2 for project 5.',
       'Description point 3 for project 5.',
     ],
-    link: 'https://github.com/yourusername/project5',
+    link: 'https://github.com/Anuj-Wanjari/Quiz-App',
   },
   {
     imgSrc: paystree,
-    title: 'Project 4',
+    title: 'Paystree Analysis',
     description: [
       'Description point 1 for project 4.',
       'Description point 2 for project 4.',
       'Description point 3 for project 4.',
     ],
-    link: 'https://github.com/yourusername/project4',
+    link: 'https://github.com/Anuj-Wanjari/Pays-Tree-s-Strategic-Expansion-and-Financial-Analysis',
   },
   {
     imgSrc: Aerofit,
-    title: 'Project 3',
+    title: 'Aerofit EDA Analysis',
     description: [
       'Description point 1 for project 3.',
       'Description point 2 for project 3.',
       'Description point 3 for project 3.',
     ],
-    link: 'https://github.com/yourusername/project3',
+    link: 'https://github.com/Anuj-Wanjari/Aerofit-Analysis',
   },
   {
     imgSrc: yulu,
-    title: 'Project 2',
+    title: 'Yulu EDA & Hypothesis Testing',
     description: [
       'Description point 1 for project 2.',
       'Description point 2 for project 2.',
       'Description point 3 for project 2.',
     ],
-    link: 'https://github.com/yourusername/project2',
+    link: 'https://github.com/Anuj-Wanjari/Yulu-Analysis',
   },
   {
     imgSrc: portfolioImage,
-    title: 'Caaring - Cab Share App',
+    title: 'React Portfolio',
     description: [
       'A Cab Sharing web app made using Django for VIT Students.',
       'Added User authentication and password reset using SendGrid.',
       'Deployed on Heroku using gunicorn.',
     ],
-    link: 'https://github.com/yourusername/caaring',
+    link: 'https://github.com/Anuj-Wanjari/React-Portfolio',
   },
 ];
 

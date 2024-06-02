@@ -61,5 +61,6 @@
 }
 
 .certification-card:hover img {
-  opacity: 0.7;
+  opacity: 0.9;
+  transform: translateY(-5px);
 }
