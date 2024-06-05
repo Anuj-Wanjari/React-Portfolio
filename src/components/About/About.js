@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import personImage from '../../images/profile.png';
+import personImage from '../../images/profile1.jpg';
 
 function About({ darkMode }) {
   return (
