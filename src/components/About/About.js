@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import personImage from '../../images/profile.png'; // Import the image
+import personImage from '../../images/profile.png';
 
 function About({ darkMode }) {
   return (
@@ -8,15 +8,18 @@ function About({ darkMode }) {
       <h2>About</h2>
       <div className="content">
         <div className="about-text">
-          <p>This is where you can describe about yourself. The more you describe about yourself, the better it is!</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hello! I'm Anuj Wanjari, a Bachelor of Computer Science student at Scaler School of Technology. 
+            I am passionate about data and business analytics, enjoying the challenge of working with datasets to generate insights and solve business problems.
+          </p>
+          <p>
+            My enthusiasm lies in tackling complex business issues and challenging case studies. 
+            By leveraging my analytical skills and knowledge, I aim to make data-driven decisions that drive growth and innovation.
+          </p>
+          <p>
+            Welcome to my portfolio, where you can explore my projects and my journey in the world of analytics.
           </p>
         </div>
-        {/* Use the imported image */}
         <img src={personImage} alt="Profile" className="profile-image" />
       </div>
     </div>

@@ -1,8 +1,8 @@
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px 30px; /* Less spacing between rows and columns */
-    padding: 15px 15%; /* More spacing on the left and right sides */
+    gap: 30px 30px;
+    padding: 15px 15%;
   }
   
   .project-card {
@@ -11,7 +11,7 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
-    width: 100%; /* Adjust width to occupy the full column */
+    width: 100%;
     text-align: left;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     display: flex;
@@ -62,7 +62,7 @@
   }
   
   .project-card:hover .link-icon {
-    color: #007BFF; /* Change color on hover if needed */
+    color: #007BFF;
   }
   
   .projects.dark .link-icon {
